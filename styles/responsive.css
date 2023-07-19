@@ -313,7 +313,8 @@
 
 }
 
-/* Mobile Responsive */
+
+/* Mobile Responsive Small */
 @media screen and (max-width: 576px){
 
     /* Primary Styles */
@@ -417,7 +418,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: left top;
-        padding: 1rem 4rem;
+        padding: 1rem 5rem;
 
     }
 
@@ -639,4 +640,35 @@
         font-weight: 500;
     }
 
+}
+
+
+
+/* Mobile Responsive (Medium) */
+
+
+@media screen and (max-width: 375px){
+.banner-about{
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+    padding: 1rem 4rem;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 320px){
+    .banner-about{
+        background-image: url(../images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left top;
+        padding: 1rem 3rem;
+    
+    }
+    
 }
