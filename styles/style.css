@@ -172,6 +172,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .banner-buttons{
@@ -280,13 +281,13 @@ nav{
     padding-right: 0.2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
+    justify-items: center;
     gap: 20px;
 }
 
 .card{
     border-radius: 16px;
-    width: 250px;
+    width: 255px;
     height: 300px;
     box-sizing: border-box;
     overflow: hidden;
@@ -313,25 +314,22 @@ nav{
 
 #card1{
     background: url(../images/Rectangle\ 4.png);
+    background-size: cover;
 }
 
 #card2{
     background: url(../images/Rectangle\ 5.png);
+    background-size: cover;
 }
 
 #card3{
     background: url(../images/Rectangle\ 7.png);
+    background-size: cover;
 }
 
 #card4{
     background: url(../images/Rectangle\ 6.png);
-}
-
-
-.card-img {
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    background-size: cover;
 }
 
 #hovertext{

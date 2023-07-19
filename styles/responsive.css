@@ -1,4 +1,24 @@
+
+/* 1024px Responsive */
+
+@media screen and (max-width: 1024px){
+    /* Gaming Video Section */
+
+    .card{
+        position: static;
+        border-radius: 16px;
+        width: 200px;
+        height: 236px;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-size: cover;
+        margin-bottom: 1rem;
+    }
+    
+}
+
 /* Tablet Responsive */
+
 @media screen and (max-width: 768px){
 
     /* Primary Styles */
@@ -167,7 +187,7 @@
         padding-right: 0.3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
+        justify-items: center;
         align-items: center;
         gap: 20px;
     }
