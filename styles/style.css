@@ -399,25 +399,25 @@ i.fa-solid.fa-play{
 .category{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .category-name{
     color: #0B0223;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .category-img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .category-card{
