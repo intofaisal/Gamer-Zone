@@ -68,6 +68,10 @@ a:hover{
 }
 
 
+i{
+    cursor: pointer;
+}
+
 /* Navigation Styles */
 
 nav{
@@ -349,6 +353,7 @@ i.fa-solid.fa-play{
     left: 50%;
     transform: translate(-40%, -50%);
 }
+
 
 /* Feature Styles */
 
